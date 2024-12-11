@@ -1,8 +1,4 @@
 # FrontendMenu2.0
-Frontend de um menu de restaurante criado em Next.js consumindo dados de um servidor node.js.
-
-
-# MenuFrontend
 
 O MenuFrontend é um projeto desenvolvido para criar uma interface moderna e funcional para um restaurante, utilizando Next.js no frontend e consumindo um backend em Node.js. O projeto segue as melhores práticas de desenvolvimento web, incluindo a aplicação adequada dos métodos HTTP e um design responsivo.
 
