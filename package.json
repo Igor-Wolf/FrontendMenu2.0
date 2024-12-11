@@ -1,0 +1,24 @@
+{
+  "name": "menufront",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/dancing-script": "^5.1.0",
+    "axios": "^1.7.9",
+    "bootstrap-icons": "^1.11.3",
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "styled-component": "^2.8.0",
+    "swiper": "^11.1.15"
+  },
+  "devDependencies": {
+    "@iconify/react": "^5.0.2"
+  }
+}
