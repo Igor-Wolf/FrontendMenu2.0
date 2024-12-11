@@ -14,6 +14,10 @@ export const BtnContainer = styled.div`
     justify-content: space-around;
     }
 
+    @media (max-width: 530px) { 
+        gap: 0.5rem;
+
+     }
 `
 
 
