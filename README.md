@@ -55,7 +55,7 @@ Os testes do frontend foram realizados nos navegadores Mozilla Firefox e Google 
 
 ## Acesso ao Site
 
-O site completo pode ser acessado [aqui](https://frontendmenu2.0.vercel.app/).
+O site completo pode ser acessado [aqui](https://frontend-menu2-0.vercel.app/).
 
 ## Autor
 
@@ -66,7 +66,4 @@ Desenvolvido por **Igor Wolf**. Para mais informações ou dúvidas, entre em co
 
 ![Organização dos Arquivos](https://github.com/Igor-Wolf/NotesApp/blob/main/demo.png?raw=true)
 
-## Acesso ao Site
-
-O site completo pode ser acessado [AQUI](https://notes-app-igor-wolf.vercel.app/).
 
