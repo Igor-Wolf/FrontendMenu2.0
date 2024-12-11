@@ -57,13 +57,8 @@ Os testes do frontend foram realizados nos navegadores Mozilla Firefox e Google 
 
 O site completo pode ser acessado [aqui](https://frontend-menu2-0.vercel.app/).
 
-## Autor
-
-Desenvolvido por **Igor Wolf**. Para mais informações ou dúvidas, entre em contato pelo GitHub [Igor-Wolf](https://github.com/Igor-Wolf).
-
-
 ## Organização dos Arquivos
 
-![Organização dos Arquivos](https://github.com/Igor-Wolf/NotesApp/blob/main/demo.png?raw=true)
+![Organização dos Arquivos](https://github.com/Igor-Wolf/FrontendMenu2.0/blob/main/demo.png?raw=true)
 
 
