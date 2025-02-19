@@ -18,7 +18,7 @@ export const WrapperCard = styled.div`
 
     @media (max-width: 768px) {
     
-    width: 150px;
+    width: 180px;
 
     margin: 0 -20px    
     
@@ -126,9 +126,10 @@ export const ExternalWrapper = styled.div`
     height: 250px;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease-in-out; /* Transição suave para todas as propriedades */
 
     @media (max-width: 768px) {
-    width:300px;
+    width:350px;
     height: 150px;
     align-items: center;
     justify-content: center;
@@ -137,7 +138,7 @@ export const ExternalWrapper = styled.div`
 
 
     @media (min-width: 769px) and (max-width: 1200px) {
-    width:500px;
+    width:400px;
     height: 200px;
     align-items: center;
     justify-content: center;
@@ -145,6 +146,12 @@ export const ExternalWrapper = styled.div`
     flex-wrap: wrap
     
 }
+
+&:hover {
+        cursor: pointer;
+        transform: scale(1.05); /* Aumenta o tamanho do componente quando passar o mouse */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra para dar a sensação de flutuar */
+    }
 
 
 `

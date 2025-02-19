@@ -24,22 +24,22 @@ const CardsPage = ({ title, description, price, id, url }) => {
         <PricesCard>
   {price.small && (
     <p>
-      <strong>Pequeno:</strong> {price.small.toFixed(2)}
+      <strong>Pequeno:</strong> R$ {price.small.toFixed(2)}
     </p>
   )}
   {price.average && (
     <p>
-      <strong>Médio:</strong> {price.average.toFixed(2)}
+      <strong>Médio:</strong> R$ {price.average.toFixed(2)}
     </p>
   )}
   {price.large && (
     <p>
-      <strong>Grande:</strong> {price.large.toFixed(2)}
+      <strong>Grande:</strong> R$ {price.large.toFixed(2)}
     </p>
   )}
   {price.unique && (
     <p>
-      <strong>Único:</strong> {price.unique.toFixed(2)}
+      <strong>Único:</strong> R$ {price.unique.toFixed(2)}
     </p>
   )}
 </PricesCard>

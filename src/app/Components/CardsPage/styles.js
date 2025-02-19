@@ -8,7 +8,6 @@ export const WrapperCard = styled.div`
     
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -17,13 +16,7 @@ export const WrapperCard = styled.div`
     padding: 0.5rem;
     gap: 0.5rem;
 
-    @media (max-width: 768px) {
     
-    width: 150px;
-
-    margin: 0 -20px    
-    
-    }
 
 
 
@@ -106,8 +99,8 @@ export const ImageCard = styled.img`
 
 
         @media (min-width: 1200px) {
-            min-width: 150px;
-            max-width: 150px;
+            min-width: 200px;
+            max-width: 200px;
 
         }
 `
@@ -118,30 +111,30 @@ export const ExternalWrapper = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
-    flex: 0 1 45%;
-    border-radius: 1rem;
+    flex:1;
+    border-radius: 1rem;    
     padding: 0.5rem;
     gap: 0.5rem;
     background-color: white;
     min-width:300px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    width:95%;
+    justify-content: center;
 
     @media (max-width: 768px) {
-    width:95vw;
+    width:95%;
     
     align-items: center;
     justify-content: center;
-    flex: none;
     flex-wrap:wrap}
 
 
     @media (min-width: 769px) and (max-width: 1200px) {
-    width:100vw;
+    width:95%;
     
     align-items: center;
     justify-content: center;
-    flex: none;
     flex-wrap: wrap
     
 }
@@ -158,24 +151,17 @@ export const ExternalWrapper2 = styled.div`
     padding: 0.3rem;
     gap: 1.5rem;
     align-items: center;
-    flex-wrap:wrap;
     padding: 1rem;
     justify-content: center;
 
+
+    @media (max-width: 1200px) {
+            flex-direction: column;
+        }
     
 
-    @media (max-width: 768px) {
-    width:100%;
-    flex: 1;
-    align-items: center;
+  
 
-
-}
-@media (min-width: 769px) and (max-width: 1200px) {
-    
-    
-    
-    }
 
 
 
